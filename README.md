@@ -45,7 +45,8 @@ To obtain the `chat_ID` and `message_thread_ID`, look out for something like bel
 * `chat_ID` : <img width="249" alt="Screenshot 2023-07-28 at 11 34 10 AM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b398b2ed-cd9d-45f9-9c24-172a60f9ecd3">
 * `message_thread_ID` : <img width="212" alt="Screenshot 2023-07-28 at 11 35 27 AM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b716727b-7f4b-4561-9486-d78c3ec5f23c">
 
-👻 Tricks:
+**👻 Tricks**:
+
 After sending out the message in step 2, you will receive the updates from the bot, you can **delete** the message from the bot after you had copy the information out. 
 
 ### Setting up google spreadsheet
@@ -67,16 +68,25 @@ To enter the app script environment:
 In the copied code, the part that you can be customise is as shown in the picture attached below.
 <img width="994" alt="Screenshot 2023-07-28 at 1 52 16 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/51bcb757-0513-4d2b-a80f-12cd186bd52c">
 
-Setup as below:
+
+**Setup as below:**
+
 `sheet_url` : Link to your spreadsheet (Check Question A in  **HELP🥹** section)
+
 `tabName`: Name of the tab (Check Question B in  **HELP🥹** section)
+
 `token` : Token of your telegram bot
+
 `pullChat_ID` : Your MainCom telegram group chat ID
+
 `pullChatThread_ID` : Topic ID of your MainCom telegram group chat
+
 `pushChat_ID` : Member telegram group chat ID
+
 `pushChatThread_ID` Topic ID of your member telegram group chat
 
-Customise as below:
+
+**Customise as below:**
 
 * `initialise_Poll`
 <img width="979" alt="Screenshot 2023-07-28 at 2 29 44 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b6143c28-6bcb-4b06-9c9d-f786cd75fb83">
@@ -115,12 +125,15 @@ To test out the function:
 
 2. After that, click the `Run` button
 
+
 **👻 Tricks:**
+
 If this is your first time you are using the app script for the first time, you might encounter the error message below. 
 <img width="421" alt="Screenshot 2023-07-28 at 1 57 57 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/ff8d27e3-3bc8-42c8-8e47-12a7ae87a7db">
 Please jump to the **HELP🥹** section below.
 
 3. After succefully invoke the functions, you should be receiving the poll inside the group telegram group.
+
 
 **HELP🥹**
 
@@ -153,9 +166,11 @@ The trigger that had been set up here basically means that:
 > run initialise_Poll , every Monday, and run it on 2pm!
 
 **Special Notes on the scheduling**
+
 Currently, when you `initialise_Poll` , you must `close_forward_Poll` in order to execute the next `initialise_Poll`.
 
 Some example:
+
 |  `initialise_Poll` | `close_forward_Poll`  |
 | ------------ | ------------ |
 |  Saturday 2pm | Sunday 2pm  |
