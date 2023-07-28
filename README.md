@@ -64,6 +64,31 @@ To enter the app script environment:
 
 ### Customising the telegram bot
 
+In the copied code, the part that you can be customise is as shown in the picture attached below.
+<img width="994" alt="Screenshot 2023-07-28 at 1 52 16 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/51bcb757-0513-4d2b-a80f-12cd186bd52c">
+
+Customise as below:
+`sheet_url` : Put in the link to your spreadsheet (Dunno know how?, check out the Question A in  **HELP🥹** section below)
+`tabName`: Put in the name of the tab that you currently open (Dunno know how?, check out the Question B in  **HELP🥹** section below)
+<img width="184" alt="Screenshot 2023-07-28 at 2 21 11 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/7ab0d9e7-5bd2-42ae-95a7-d768e1d39543">
+
+<img width="318" alt="Screenshot 2023-07-28 at 2 16 47 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/387cb64f-3404-4980-83ce-eddc74fdb5be">
+
+**👻 Tricks:**
+In order to setup different poll, just duplicate the different function out and customise the poll content as you like it. We will set when to send it out in "Scheduling the poll".
+
+**HELP🥹**
+
+***Question A***
+1. Go back to your spreadsheet, on the top-right corner, click on the `share`
+<img width="318" alt="Screenshot 2023-07-28 at 2 16 47 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/387cb64f-3404-4980-83ce-eddc74fdb5be">
+2. On the bottom right of the pop-up window, click on the `Copy link`
+<img width="508" alt="Screenshot 2023-07-28 at 2 19 18 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b583d664-311e-47b8-8761-ace2143c3a08">
+
+***Question B***
+1. Go back to your spreadsheet, read the tab on the bottom bar as shown in the picture below 
+<img width="184" alt="Screenshot 2023-07-28 at 2 21 11 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/7ab0d9e7-5bd2-42ae-95a7-d768e1d39543">
+2. The `tabName` is called Sheet1 in the example shows above
 
 ### Testing out the function
 To test out the function:
@@ -72,6 +97,7 @@ To test out the function:
 <img width="541" alt="Screenshot 2023-07-28 at 1 55 16 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/5d250b1f-7896-467f-b7f3-9c089c89f895">
 
 2. After that, click the `Run` button
+
 **👻 Tricks:**
 If this is your first time you are using the app script for the first time, you might encounter the error message below. 
 <img width="421" alt="Screenshot 2023-07-28 at 1 57 57 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/ff8d27e3-3bc8-42c8-8e47-12a7ae87a7db">
@@ -99,4 +125,7 @@ Please jump to the **HELP🥹** section below.
 ### Scheduling the poll
 
 ### Improvement
+
+One of the current limitation of this bot is that the `initialise_Poll_` function and `close_forward_Poll` can only be run on consecutive timing (means that it cannot be run parallely), you are more than welcome to do modification to the code to achieve such purposes👍🏻
+
 If any bug spotted/improvement suggestions, please email to me at litentang0212@gmail.com
