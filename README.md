@@ -77,11 +77,14 @@ Setup as below:
 `pushChatThread_ID` Topic ID of your member telegram group chat
 
 Customise as below:
+
 * `initialise_Poll`
 <img width="979" alt="Screenshot 2023-07-28 at 2 29 44 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b6143c28-6bcb-4b06-9c9d-f786cd75fb83">
 A. Here you can put in the Poll Options, each input needs to be a string (means that needs to have "" ) and comma seperated (,)
 B. You can customise the opll question here, remember needs to be a string.
 C. You can customise a message to prompt the MainCom what is the poll about.
+
+> Take note that your poll options cannot be more than 10. 
 
 * `close_forward_Poll`
 <img width="913" alt="Screenshot 2023-07-28 at 2 34 56 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/27235b5e-b45d-41d4-98c3-fdddce558943">
@@ -138,8 +141,29 @@ Please jump to the **HELP🥹** section below.
 
 ### Scheduling the poll
 
+1. Go to the `Triggers` section on the left side of your app script window. 
+<img width="281" alt="Screenshot 2023-07-28 at 2 37 44 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/6cb64e5c-ffcd-48a2-b6ea-2318349b54b7">
+
+2. On the bottom right, select `+ Add Trigger`
+<img width="174" alt="Screenshot 2023-07-28 at 2 37 59 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/c0a86f91-3f4f-436d-b76c-27a88239664c">
+
+3. Setup the trigger as shown in the picture below. 
+<img width="542" alt="Screenshot 2023-07-28 at 2 41 09 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/1dec3822-031c-4b55-9f58-bd500bc2e1b7">
+The trigger that had been set up here basically means that:
+> run initialise_Poll , every Monday, and run it on 2pm!
+
+**Special Notes on the scheduling**
+Currently, when you `initialise_Poll` , you must `close_forward_Poll` in order to execute the next `initialise_Poll`.
+
+Some example:
+|  `initialise_Poll` | `close_forward_Poll`  |
+| ------------ | ------------ |
+|  Saturday 2pm | Sunday 2pm  |
+| Monday 2pm  | Wednesday 2pm  |
+| Thursday 2pm  | Friday 2pm  |
+
 ### Improvement
 
-One of the current limitation of this bot is that the `initialise_Poll_` function and `close_forward_Poll` can only be run on consecutive timing (means that it cannot be run parallely), you are more than welcome to do modification to the code to achieve such purposes👍🏻
+One of the current limitation of this bot is that the `initialise_Poll` function and `close_forward_Poll` can only be run on consecutive timing (means that it cannot be run parallely), you are more than welcome to do modification to the code to achieve such purposes👍🏻
 
 If any bug spotted/improvement suggestions, please email to me at litentang0212@gmail.com
