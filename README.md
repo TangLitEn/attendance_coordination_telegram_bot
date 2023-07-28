@@ -67,12 +67,26 @@ To enter the app script environment:
 In the copied code, the part that you can be customise is as shown in the picture attached below.
 <img width="994" alt="Screenshot 2023-07-28 at 1 52 16 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/51bcb757-0513-4d2b-a80f-12cd186bd52c">
 
-Customise as below:
-`sheet_url` : Put in the link to your spreadsheet (Dunno know how?, check out the Question A in  **HELP🥹** section below)
-`tabName`: Put in the name of the tab that you currently open (Dunno know how?, check out the Question B in  **HELP🥹** section below)
-<img width="184" alt="Screenshot 2023-07-28 at 2 21 11 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/7ab0d9e7-5bd2-42ae-95a7-d768e1d39543">
+Setup as below:
+`sheet_url` : Link to your spreadsheet (Check Question A in  **HELP🥹** section)
+`tabName`: Name of the tab (Check Question B in  **HELP🥹** section)
+`token` : Token of your telegram bot
+`pullChat_ID` : Your MainCom telegram group chat ID
+`pullChatThread_ID` : Topic ID of your MainCom telegram group chat
+`pushChat_ID` : Member telegram group chat ID
+`pushChatThread_ID` Topic ID of your member telegram group chat
 
-<img width="318" alt="Screenshot 2023-07-28 at 2 16 47 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/387cb64f-3404-4980-83ce-eddc74fdb5be">
+Customise as below:
+* `initialise_Poll`
+<img width="979" alt="Screenshot 2023-07-28 at 2 29 44 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b6143c28-6bcb-4b06-9c9d-f786cd75fb83">
+A. Here you can put in the Poll Options, each input needs to be a string (means that needs to have "" ) and comma seperated (,)
+B. You can customise the opll question here, remember needs to be a string.
+C. You can customise a message to prompt the MainCom what is the poll about.
+
+* `close_forward_Poll`
+<img width="913" alt="Screenshot 2023-07-28 at 2 34 56 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/27235b5e-b45d-41d4-98c3-fdddce558943">
+You can customise a message to tell the member what is the result of the poll is about.
+
 
 **👻 Tricks:**
 In order to setup different poll, just duplicate the different function out and customise the poll content as you like it. We will set when to send it out in "Scheduling the poll".
