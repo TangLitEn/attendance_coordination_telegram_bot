@@ -55,7 +55,20 @@ To enter the app script environment:
 
 ### Customising the telegram bot
 
+
 ### Testing out the function
+To test out the function:
+1. first press the `save` button <img width="541" alt="Screenshot 2023-07-28 at 1 55 16 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/5d250b1f-7896-467f-b7f3-9c089c89f895">
+2. After that, click the `Run` button
+**👻 Tricks:**
+If this is your first time you are using the app script for the first time, you might encounter the error message below. 
+<img width="421" alt="Screenshot 2023-07-28 at 1 57 57 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/ff8d27e3-3bc8-42c8-8e47-12a7ae87a7db">
+Please jump to the **HELP🥹** section below.
+3. After succefully invoke the functions, you should be receiving the poll inside the group telegram group.
+
+**HELP🥹**
+
+### Scheduling the poll
 
 ### Improvement
 If any bug spotted/improvement suggestions, please email to me at litentang0212@gmail.com
