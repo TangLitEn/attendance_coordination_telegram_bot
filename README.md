@@ -44,12 +44,18 @@ After sending out the message in step 2, you will receive the updates from the b
 
 ### Setting up google spreadsheet
 The most easy step in the whole set up process🤣
+**JUST CREATE A NEW GOOGLE SPREADSHEET INSIDE YOUR GOOGLE DRIVE🤣**
 
 ### Set up the app script
+To enter the app script environment:
+1. On the top-left corner, find `Extensions`
+2. Under the drop down, select `Apps Script`
+<img width="325" alt="Screenshot 2023-07-28 at 1 44 26 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/1ae9edc4-9d43-4e9b-8291-275fb30c3b7b">
+3. Copy the code from the MAIN.gs from this GitHub repo and paste it into the code editor👍🏻
 
-### Customising the telegram bot 
+### Customising the telegram bot
 
-### Testing out the function 
+### Testing out the function
 
 ### Improvement
 If any bug spotted/improvement suggestions, please email to me at litentang0212@gmail.com
