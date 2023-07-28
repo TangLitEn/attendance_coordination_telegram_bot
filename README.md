@@ -36,6 +36,11 @@ There are a lot of methods out there, the method that I will suggest in this doc
 4. Copy the whole list of response and paste it into the JSON converter [HERE](https://jsonformatter.curiousconcept.com/# "HERE")
 
 To obtain the `chat_ID` and `message_thread_ID`, look out for something like below:
+* `chat_ID` : <img width="249" alt="Screenshot 2023-07-28 at 11 34 10 AM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b398b2ed-cd9d-45f9-9c24-172a60f9ecd3">
+* `message_thread_ID` : <img width="212" alt="Screenshot 2023-07-28 at 11 35 27 AM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b716727b-7f4b-4561-9486-d78c3ec5f23c">
+
+👻 Tricks:
+After sending out the message in step 2, you will receive the updates from the bot, you can **delete** the message from the bot after you had copy the information out. 
 
 ### Setting up google spreadsheet
 The most easy step in the whole set up process🤣
