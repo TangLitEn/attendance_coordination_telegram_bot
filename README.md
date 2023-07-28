@@ -67,6 +67,16 @@ Please jump to the **HELP🥹** section below.
 3. After succefully invoke the functions, you should be receiving the poll inside the group telegram group.
 
 **HELP🥹**
+1. First, click on the `Review permissions`
+2. Click on the `Advanced` on the bottom right 
+<img width="620" alt="Screenshot 2023-07-28 at 1 58 18 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/a6170c0e-9b80-45bc-bdbb-2c7652a78455">
+3. Click on the `Go to Untitled project (unsafe`)
+<img width="620" alt="Screenshot 2023-07-28 at 1 58 50 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b9534c2f-26ba-451f-aeba-a20eb23527d1">
+4. Review the permissions and click on `Allow`
+<img width="464" alt="Screenshot 2023-07-28 at 1 59 23 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/594f0237-6d7f-4a70-a8fb-351cb95d8cd3">
+5. The function should be now able to run normally.
+
+> But with that being said, this protection is implemented by Google to protect the users from implementing something dangerous, as long as you know what the code is doing, then you should be fine👍🏻
 
 ### Scheduling the poll
 
