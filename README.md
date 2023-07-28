@@ -89,14 +89,19 @@ In the copied code, the part that you can be customise is as shown in the pictur
 **Customise as below:**
 
 * `initialise_Poll`
+
 <img width="979" alt="Screenshot 2023-07-28 at 2 29 44 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b6143c28-6bcb-4b06-9c9d-f786cd75fb83">
+
 A. Here you can put in the Poll Options, each input needs to be a string (means that needs to have "" ) and comma seperated (,)
+
 B. You can customise the opll question here, remember needs to be a string.
+
 C. You can customise a message to prompt the MainCom what is the poll about.
 
 > Take note that your poll options cannot be more than 10. 
 
 * `close_forward_Poll`
+
 <img width="913" alt="Screenshot 2023-07-28 at 2 34 56 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/27235b5e-b45d-41d4-98c3-fdddce558943">
 You can customise a message to tell the member what is the result of the poll is about.
 
@@ -108,28 +113,37 @@ In order to setup different poll, just duplicate the different function out and 
 
 ***Question A***
 1. Go back to your spreadsheet, on the top-right corner, click on the `share`
+   
 <img width="318" alt="Screenshot 2023-07-28 at 2 16 47 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/387cb64f-3404-4980-83ce-eddc74fdb5be">
-2. On the bottom right of the pop-up window, click on the `Copy link`
+
+2. On the bottom right of the pop-up window, click on the `Copy link
 <img width="508" alt="Screenshot 2023-07-28 at 2 19 18 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b583d664-311e-47b8-8761-ace2143c3a08">
 
 ***Question B***
-1. Go back to your spreadsheet, read the tab on the bottom bar as shown in the picture below 
+
+1. Go back to your spreadsheet, read the tab on the bottom bar as shown in the picture below
+
 <img width="184" alt="Screenshot 2023-07-28 at 2 21 11 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/7ab0d9e7-5bd2-42ae-95a7-d768e1d39543">
+
 2. The `tabName` is called Sheet1 in the example shows above
 
 ### Testing out the function
+
 To test out the function:
 
-1. first press the `save` button 
+1. first press the `save` button
+
 <img width="541" alt="Screenshot 2023-07-28 at 1 55 16 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/5d250b1f-7896-467f-b7f3-9c089c89f895">
 
-2. After that, click the `Run` button
+3. After that, click the `Run` button
 
 
 **👻 Tricks:**
 
 If this is your first time you are using the app script for the first time, you might encounter the error message below. 
+
 <img width="421" alt="Screenshot 2023-07-28 at 1 57 57 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/ff8d27e3-3bc8-42c8-8e47-12a7ae87a7db">
+
 Please jump to the **HELP🥹** section below.
 
 3. After succefully invoke the functions, you should be receiving the poll inside the group telegram group.
@@ -140,12 +154,15 @@ Please jump to the **HELP🥹** section below.
 1. First, click on the `Review permissions`
 
 2. Click on the `Advanced` on the bottom right
+
 <img width="620" alt="Screenshot 2023-07-28 at 1 58 18 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/a6170c0e-9b80-45bc-bdbb-2c7652a78455">
 
 3. Click on the `Go to Untitled project (unsafe)`
+
 <img width="620" alt="Screenshot 2023-07-28 at 1 58 50 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/b9534c2f-26ba-451f-aeba-a20eb23527d1">
 
 4. Review the permissions and click on `Allow`
+
 <img width="464" alt="Screenshot 2023-07-28 at 1 59 23 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/594f0237-6d7f-4a70-a8fb-351cb95d8cd3">
 
 5. The function should be now able to run normally.
@@ -154,15 +171,20 @@ Please jump to the **HELP🥹** section below.
 
 ### Scheduling the poll
 
-1. Go to the `Triggers` section on the left side of your app script window. 
+1. Go to the `Triggers` section on the left side of your app script window.
+
 <img width="281" alt="Screenshot 2023-07-28 at 2 37 44 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/6cb64e5c-ffcd-48a2-b6ea-2318349b54b7">
 
 2. On the bottom right, select `+ Add Trigger`
+
 <img width="174" alt="Screenshot 2023-07-28 at 2 37 59 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/c0a86f91-3f4f-436d-b76c-27a88239664c">
 
-3. Setup the trigger as shown in the picture below. 
+3. Setup the trigger as shown in the picture below.
+   
 <img width="542" alt="Screenshot 2023-07-28 at 2 41 09 PM" src="https://github.com/TangLitEn/attendance_coordination_telegram_bot/assets/65808174/1dec3822-031c-4b55-9f58-bd500bc2e1b7">
+
 The trigger that had been set up here basically means that:
+
 > run initialise_Poll , every Monday, and run it on 2pm!
 
 **Special Notes on the scheduling**
